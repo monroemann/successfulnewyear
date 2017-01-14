@@ -84,7 +84,7 @@ font-weight: bold;
 
 #coach {
   background-color: #D5EDF5;
-  opacity: 0.9;
+  opacity: 0.95;
   max-width: 450px;
   border-radius: 10px;
   border-style: solid;
@@ -138,11 +138,30 @@ font-weight: bold;
   background-position:center;
   background-repeat:no-repeat;
   background-size: cover;
-  height: 100px;
+  height: 50px;
 }
 
 .footer {
   text-align: center;
-  padding-top: 13px;
-  padding-bottom: 13px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+
+html,
+body {
+ height: 100%;
+ /* The html and body elements cannot have any padding or margin. */
+}
+
+
+/* Set the fixed height of the footer here */
+#footer {
+ height: 50px;
+ color: black;
+ background-color: white;
+ font-family: "Helvetica-Neue", Helvetica;
+ font-weight: 100;
+ padding: 0px;
+ margin-top:0px;
 }
