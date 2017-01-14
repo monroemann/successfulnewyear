@@ -151,11 +151,8 @@ font-weight: bold;
 }
 
 
-html,
-body {
- height: 100%;
- /* The html and body elements cannot have any padding or margin. */
-}
+html { height: 100%; } 
+body { min-height: 100%; }
 
 
 /* Set the fixed height of the footer here */
