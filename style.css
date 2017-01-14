@@ -48,7 +48,7 @@ body {
   margin-right: auto;
   font-weight: bold;
   margin-top: 0em;
-  
+
 }
 
 }
@@ -72,13 +72,18 @@ text-align: center;
   height:150px;  
 }
 
+#byline {
+  font-size: 10px;
+  text-align: center;
+}
+
 .text {
 color: black;
 font-weight: bold;
 }
 
 #coach {
-  background-color: #80A4B0;
+  background-color: #D5EDF5;
   opacity: 0.9;
   max-width: 450px;
   border-radius: 10px;
@@ -86,7 +91,7 @@ font-weight: bold;
 }
 
 #program {
-  background-color: #80A4B0;
+  background-color: #D5EDF5;
   opacity: 0.9;
   max-width: 450px;
   border-radius: 10px;
@@ -94,7 +99,7 @@ font-weight: bold;
 }
 
 #testimonials {
-  background-color: #80A4B0;
+  background-color: #D5EDF5;
   opacity: 0.9;
   max-width: 450px;
   border-radius: 10px;
@@ -102,7 +107,7 @@ font-weight: bold;
 }
 
 #cost {
-  background-color: #80A4B0;
+  background-color: #D5EDF5;
   opacity: 0.9;
   max-width: 450px;
   border-radius: 10px;
@@ -110,7 +115,7 @@ font-weight: bold;
 }
 
 #questions {
-  background-color: #80A4B0;
+  background-color: #D5EDF5;
   opacity: 0.9;
   max-width: 450px;
   border-radius: 10px;
@@ -118,7 +123,7 @@ font-weight: bold;
 }
 
 #consultation {
-  background-color: #80A4B0;
+  background-color: #D5EDF5;
   opacity: 0.9;
   max-width: 450px;
   border-radius: 10px;
