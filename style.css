@@ -1,62 +1,47 @@
 
 
 body {
+  background-image: url(rsz_background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
+@media (max-width: 375px) {
+  body {
+    background-attachment: scroll;
+  }
 }
 
 #nav-bar {
   text-align: center;
 }
 
-
-#box-wrapper{
-  background-image: url(rsz_background.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  max-width: 100%
-  height: auto;
-  display: block;
-
-}
-
-#box-wrapper h1 {
-  text-align: center;
-  color:maroon;
-  border: 5px solid #333;
-  border-radius: 10px;
-  padding: 10px;
-  font-family: 'Baloo Chettan', sans-serif;
-  font-weight: bold;
-  background: #eee;
+#topbox {
+  background-color: #eee;
   opacity: 0.9;
   margin-top: 100px;
-  font-size: 30px;
   max-width: 450px;
-    margin-left: auto;
-  margin-right: auto;
-  font-weight: bold;
-
+  border-radius: 10px;
+  border-style: solid;
 }
 
-#box-wrapper p {
+p {
   text-align: justify;
   font-size: 13px;
   font-family: 'Play', sans-serif;
-  padding: 20px;
+  padding: 5px;
   color: #333;
   max-width: 300px;
-    margin-left: auto;
-  margin-right: auto;
-  font-weight: bold;
-  margin-top: 0em;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  font-weight: 500;
+  margin-top: 0em !important;
 
 }
 
-}
-
-h1 {
+.container h1 {
   color: white;
   font-size: 50px;
   font-weight: bold;
@@ -70,7 +55,6 @@ text-align: center;
 }
 
 .mmphoto{
-  float: left;
   width:150px;
   height:150px;  
 }
@@ -80,57 +64,15 @@ text-align: center;
   text-align: center;
 }
 
-.text {
-color: black;
-font-weight: bold;
-}
 
-#coach {
+.info-boxes {
   background-color: #D5EDF5;
   opacity: 0.95;
   max-width: 450px;
   border-radius: 10px;
   border-style: solid;
-}
-
-#program {
-  background-color: #D5EDF5;
-  opacity: 0.9;
-  max-width: 450px;
-  border-radius: 10px;
-  border-style: solid;
-}
-
-#testimonials {
-  background-color: #D5EDF5;
-  opacity: 0.9;
-  max-width: 450px;
-  border-radius: 10px;
-  border-style: solid;
-}
-
-#cost {
-  background-color: #D5EDF5;
-  opacity: 0.9;
-  max-width: 450px;
-  border-radius: 10px;
-  border-style: solid;
-}
-
-#questions {
-  background-color: #D5EDF5;
-  opacity: 0.9;
-  max-width: 450px;
-  border-radius: 10px;
-  border-style: solid;
-}
-
-#consultation {
-  background-color: #D5EDF5;
-  opacity: 0.9;
-  max-width: 450px;
-  border-radius: 10px;
-  border-style: solid;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 
@@ -146,26 +88,30 @@ font-weight: bold;
 
 .footer {
   text-align: center;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  color: black;
+  background-color: white;
+  font-family: "Helvetica-Neue", Helvetica;
+  font-weight: 100;
+  padding: 5px;
+  margin-top:0px;
 }
 
-
+/* Helps solve a mobile style bug on some phones */
 html { height: 100%; } 
 body { min-height: 100%; }
 
 
 /* Set the fixed height of the footer here */
 #footer {
- height: 50px;
- color: black;
- background-color: white;
- font-family: "Helvetica-Neue", Helvetica;
- font-weight: 100;
- padding: 0px;
- margin-top:0px;
+
 }
 
 @media screen and (max-width: 480px) {
     background-image: responsive;
+}
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 450px;
 }
