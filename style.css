@@ -8,7 +8,7 @@ body {
   background-repeat: no-repeat;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   body {
     background-attachment: scroll;
   }
@@ -25,6 +25,8 @@ body {
   max-width: 450px;
   border-radius: 10px;
   border-style: solid;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 p {
@@ -47,6 +49,12 @@ p {
   font-weight: bold;
   margin-bottom: 0px;
   text-align: center;
+}
+
+@media (max-width: 325px) {
+  #topbox h1 {
+    font-size: 25px;
+  }
 }
 
 .heading {
