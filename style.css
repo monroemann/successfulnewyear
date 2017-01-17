@@ -3,15 +3,9 @@
 body {
   background-image: url(rsz_background.jpg);
   background-size: cover;
-  background-attachment: fixed;
+  -webkit-background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-@media (max-width: 300px) {
-  body {
-    -webkit-background-size:cover;
-  }
 }
 
 #nav-bar {
