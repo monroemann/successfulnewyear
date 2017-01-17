@@ -10,7 +10,7 @@ body {
 
 @media (max-width: 300px) {
   body {
-    background-attachment: scroll;
+    -webkit-background-size:cover
   }
 }
 
