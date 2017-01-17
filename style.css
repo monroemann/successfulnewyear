@@ -8,11 +8,7 @@ body {
   background-repeat: no-repeat;
 }
 
-@media (max-width: 400px) {
-  body {
-    background-attachment: scroll;
-  }
-}
+
 
 #nav-bar {
   text-align: center;
