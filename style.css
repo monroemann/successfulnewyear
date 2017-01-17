@@ -10,7 +10,7 @@ body {
 
 @media (max-width: 300px) {
   body {
-    -webkit-background-size:cover
+    -webkit-background-size:cover;
   }
 }
 
