@@ -10,6 +10,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   max-width: 100%;
+  transform: scale();
 }
 
 @supports (overflow:-webkit-marquee) and (justify-content:inherit) {
